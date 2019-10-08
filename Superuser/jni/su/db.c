@@ -89,7 +89,6 @@ policy_t database_check(struct su_context *ctx) {
         return INTERACTIVE;
     }
     
-    int result;
     char *err = NULL;
     struct callback_data_t data;
     data.ctx = ctx;
